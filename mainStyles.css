@@ -1,3 +1,5 @@
+/*codigo base de cada pagina*/
+
 body {
     font-family: 'Noto Serif';
     font-size: 16px;
@@ -6,9 +8,17 @@ body {
     padding: 20px;
 }
 
+
+/*configuraciones del nav*/
+
 .link-I {
     color: #418CEF;
     text-decoration: none;
+}
+
+.link-I:hover {
+    transition: 300ms linear;
+    color: #ffffff;
 }
 
 .enLinea {
@@ -26,4 +36,66 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.teclink:hover {
+    transition: 300ms linear;
+    color: #ffffff;
+}
+
+
+/*media query para pantalla de phone 14 pro max o pantallas similares*/
+
+.TamSect {
+    width: auto;
+    height: 115vh;
+    background-image: url('./imgProyecto/pexels-cottonbro-4069293.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 430px) and (max-height: 932px) {
+    .TamSect {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 932px) and (max-height: 430px) {
+    .TamSect {
+        height: 115vh;
+    }
+}
+
+
+/*media query para pantalla de phone 14 pro max o pantallas similares*/
+
+.tamañoP {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+    .tamañoP {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 932px) and (max-height: 430px) {
+    .tamañoP {
+        font-size: 15px;
+    }
+}
+
+
+/*media query para pantalla de phone 14 pro max o pantallas similares*/
+
+.textoH {
+    font-size: 4rem;
+    padding-top: 10%;
+}
+
+@media (max-width: 430px) {
+    .textoH {
+        font-size: 2.1rem;
+        padding-left: 4%;
+    }
 }

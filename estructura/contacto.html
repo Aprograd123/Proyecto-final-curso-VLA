@@ -3,10 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../mainStyles.css">
@@ -14,76 +19,65 @@
 </head>
 
 <body>
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg  fixed-top">
-        <div class="container">
-            <!-- Contenedor principal que centra el contenido dentro del navbar -->
+
+    <header>
+        <!-- Barra de navegación -->
+        <nav>
+            <!-- Lista no estilizada con clases de Bootstrap para alineación en línea -->
+            <ul class="list-unstyled  alineadoList">
+
+                <!-- Logo de la página -->
+                <li>
+                    <a href="index.html">
+                        <img class="logo" src="../imgProyecto/logo.png" alt="Logo">
+                    </a>
+                </li>
+
+                <!-- Enlace a la página de inicio -->
+                <li class="me-3">
+                    <a class="link-I" href="index.html">Inicio</a>
+                </li>
+
+                <!-- Enlace a la sección "Nosotros" -->
+                <li class="me-3">
+                    <a class="link-I" href="nosotros.html">Nosotros</a>
+                </li>
+
+                <!-- Enlace a la sección de productos -->
+                <li class="me-3">
+                    <a class="link-I" href="productos.html">Productos</a>
+                </li>
+
+                <!-- Enlace a la sección de contacto -->
+                <li class="me-3">
+                    <a class="link-I" href="contacto.html">Contáctanos</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
 
 
 
 
-            <!-- Logo -->
-
-            <div class="navbar-brand ms-n3 contenedor-Img">
-                <img src="../imgProyecto/logo.png" alt="Logo" class="img-fluid tamaño-Logo ">
-            </div>
 
 
 
 
 
-            <!-- Botón del navbar para dispositivos pequeños (colapsable) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span> <!-- Ícono del botón hamburguesa -->
-            </button>
 
-            <!-- Contenedor del menú de navegación -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Lista de enlaces dentro del navbar -->
-                <ul class="navbar-nav ms-auto">
-                    <!-- Elemento del menú: Inicio -->
-                    <li class="nav-item">
-                        <a class="nav-link colorLinksNav" href="./index.html">Inicio</a>
-                    </li>
-                    <!-- Elemento del menú: Nosotros -->
-                    <li class="nav-item">
-                        <a class="nav-link colorLinksNav" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <!-- Elemento del menú: Productos -->
-                    <li class="nav-item">
-                        <a class="nav-link colorLinksNav" href="./productos.html">Productos</a>
-                    </li>
-                    <!-- Elemento del menú: Contactanos -->
-                    <li class="nav-item">
-                        <a class="nav-link colorLinksNav" href="./contacto.html">Contactanos</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+
+
+
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="../mainScript.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="../mainScript.js"></script>
 
 </html>
