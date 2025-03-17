@@ -1,67 +1,101 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
 
+
+<head>
+
+    <!--meta-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encuentra lo último en tecnología y moda en Innovation Tech. Ofrecemos productos de alta calidad y las últimas tendencias. ¡Compra ahora!">
+    <meta name="keywords" content="tecnología, moda, electrónica, ropa, accesorios, tienda online, Costa Rica">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Innovation Tech: Lo Mejor en Tecnología y Moda">
+    <meta property="og:description" content="Descubre las últimas tendencias en tecnología y moda. ¡Compra con nosotros!">
+    <meta property="og:image" content="URL_de_tu_imagen_destacada">
+    <meta property="og:url" content="URL_de_tu_pagina">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Adrian josue Cambronero  Ulloa">
+    <meta name="language" content="es">
+
+
+
     <!-- Enlace a la hoja de estilos de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <!-- Enlace a la hoja de estilos personalizada -->
     <link rel="stylesheet" href="../mainStyles.css">
-    <!-- Script de Bootstrap para funcionalidades -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 
     <!-- Enlace a Google Fonts para utilizar la fuente 'Noto Serif' -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <!--titulo de pagina web(inicio)-->
     <title>Inicio</title>
 </head>
 
+
+
+
 <body>
 
+
+    <!-- Barra de navegación -->
     <header>
-        <!-- Barra de navegación -->
-        <nav>
-            <!-- Lista no estilizada con alineado personalizado -->
-            <ul class="list-unstyled  alineadoList">
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
                 <!-- Logo de la página -->
-                <li>
-                    <a href="index.html">
-                        <img class="logo" src="../imgProyecto/logo.png" alt="Logo">
-                    </a>
-                </li>
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="../imgProyecto/logo.png" alt="Logo de Innovation Tech">
+                </a>
 
-                <!-- Enlace a la página de inicio -->
-                <li class="me-3 ">
-                    <a class="link-I" href="index.html">Inicio</a>
-                </li>
 
-                <!-- Enlace a la sección "Nosotros" -->
-                <li class="me-3 ">
-                    <a class="link-I" href="nosotros.html">Nosotros</a>
-                </li>
 
-                <!-- Enlace a la sección de productos -->
-                <li class="me-3">
-                    <a class="link-I" href="productos.html">Productos</a>
-                </li>
+                <!-- Botón hamburguesa para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                <!-- Enlace a la sección de contacto -->
-                <li class="me-3">
-                    <a class="link-I" href="contacto.html">Contáctanos</a>
-                </li>
 
-            </ul>
+
+                <!-- Lista de enlaces de la barra de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Enlace a la página de inicio -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+
+                        <!-- Enlace a la sección "Nosotros" -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <!-- Enlace a la sección de productos -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+
+                        <!-- Enlace a la sección de contacto -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
+
+
+
+
+
     <!--Contenido principal-->
-    <section class="text-white d-flex  flex-column  TamSect rounded-1">
+    <main class="text-white d-flex  flex-column  TamSect rounded-1">
         <h1 class="ms-5 textoH ">Innovation Tech</h1>
 
         <p class=" centrado w-50 ms-5 mt-5 tamañoP">En Tech shop, combinamos tecnología, estilo e<br> innovación desde 2010. Con origen en San José, Costa Rica, ofrecemos productos de alta calidad y una experiencia de compra única. Innovamos para ti, llevando lo mejor en tecnología hasta tus manos.
@@ -69,19 +103,32 @@
 
         <h2 class=" ms-5 mt-5">Aqui puedes encontrar ...</h2>
 
-        <!-- Contenedor para los enlaces -->
-        <div class="d-flex ms-5 mt-2">
-            <a href="#" class="me-4 fs-5 text-decoration-none teclink">Tecnologia</a>
-            <a href="#" class="fs-5 text-decoration-none teclink">Moda</a>
+        <div class="ms-5 mt-2">
+            <ul class="shadow" style="list-style-type: square;">
+                <li class="text-info">Electrónica</li>
+                <li class="text-info">Moda</li>
+                <li class="text-info">Joyería</li>
+                <li class="text-info">todo en un mismo lugar</li>
+            </ul>
+
+            <a href="productos.html" class="btn btn-primary btn-lg rounded-pill shadow mt-1">
+                <i class="fas fa-shopping-bag me-2"></i> Ver Productos
+            </a>
         </div>
-    </section>
+
+
+    </main>
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
 </body>
+
+
+
+
 
 </html>

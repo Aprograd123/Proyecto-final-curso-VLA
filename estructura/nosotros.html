@@ -2,79 +2,144 @@
 <html lang="es">
 
 <head>
+    <!--meta-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encuentra lo último en tecnología y moda en Innovation Tech. Ofrecemos productos de alta calidad y las últimas tendencias. ¡Compra ahora!">
+    <meta name="keywords" content="tecnología, moda, electrónica, ropa, accesorios, tienda online, Costa Rica">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Innovation Tech: Lo Mejor en Tecnología y Moda">
+    <meta property="og:description" content="Descubre las últimas tendencias en tecnología y moda. ¡Compra con nosotros!">
+    <meta property="og:image" content="URL_de_tu_imagen_destacada">
+    <meta property="og:url" content="URL_de_tu_pagina">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Adrian josue Cambronero  Ulloa">
+    <meta name="language" content="es">
+
+
+
+
+    <!-- Enlace a la hoja de estilos de Bootstrap desde un CDN (Content Delivery Network) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+
+
+    <!-- Permite la conexión previa a los servidores de Google Fonts (mejora el rendimiento) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Enlace a Google Fonts para cargar la fuente "Noto Serif" con diferentes estilos y pesos -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <!-- Enlace a tu archivo de estilos personalizados (CSS) -->
     <link rel="stylesheet" href="../mainStyles.css">
+
+    <!-- Título de la página que aparece en la pestaña del navegador -->
     <title>Nosotros</title>
 </head>
 
 <body>
 
+    <!-- Barra de navegación -->
     <header>
-        <!-- Barra de navegación -->
-        <nav>
-            <!-- Lista no estilizada con clases de Bootstrap para alineación en línea -->
-            <ul class="list-unstyled  alineadoList">
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
                 <!-- Logo de la página -->
-                <li>
-                    <a href="index.html">
-                        <img class="logo" src="../imgProyecto/logo.png" alt="Logo">
-                    </a>
-                </li>
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="../imgProyecto/logo.png" alt="Logo de Innovation Tech">
+                </a>
 
-                <!-- Enlace a la página de inicio -->
-                <li class="me-3">
-                    <a class="link-I" href="index.html">Inicio</a>
-                </li>
 
-                <!-- Enlace a la sección "Nosotros" -->
-                <li class="me-3">
-                    <a class="link-I" href="nosotros.html">Nosotros</a>
-                </li>
 
-                <!-- Enlace a la sección de productos -->
-                <li class="me-3">
-                    <a class="link-I" href="productos.html">Productos</a>
-                </li>
+                <!-- Botón hamburguesa para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                <!-- Enlace a la sección de contacto -->
-                <li class="me-3">
-                    <a class="link-I" href="contacto.html">Contáctanos</a>
-                </li>
 
-            </ul>
+
+                <!-- Lista de enlaces de la barra de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Enlace a la página de inicio -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+
+                        <!-- Enlace a la sección "Nosotros" -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <!-- Enlace a la sección de productos -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+
+                        <!-- Enlace a la sección de contacto -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
 
-    <!--Historia sobre nuestra tienda-->
-    <section class="container d-flex justify-content-center mt-5 flex-column">
-        <h2 class="text-center text-primary">nuestra historia</h2>
-        <p class="fs-5">TechShop fue fundada en el año 2010 en San José de Costa Rica por un grupo de apasionados por la tecnología y la moda. El objetivo era simple pero ambicioso: crear una tienda que no solo vendiera productos electrónicos y de moda de alta calidad,
-            sino que también ofreciera una experiencia de compra excepcional. Desde sus inicios, TechShop se destacó por su compromiso con la excelencia y la satisfacción del cliente. Comenzaron en un pequeño local en el centro de la ciudad, pero gracias
-            a su enfoque en la calidad y el servicio al cliente, rápidamente ganaron una base de clientes leales. En 2015, TechShop abrió su primera tienda en línea, lo que permitió expandir su alcance y atender a clientes de todo Costa Rica. A lo largo
-            de los años, TechShop ha evolucionado y se ha adaptado a las tendencias tecnológicas, siempre manteniendo su compromiso con la innovación. En 2020, celebraron su décimo aniversario con la inauguración de su tienda insignia, un espacio interactivo
-            donde los clientes pueden probar los últimos gadgets y dispositivos.</p>
-        <h2 class="text-center text-primary">Misión</h2>
-        <p>La misión de TechShop es proporcionar a nuestros clientes productos de moda, electrónicos y tecnológicos de la más alta calidad, acompañados de un servicio excepcional. Nos esforzamos por ser la primera opción para los entusiastas de la tecnología
-            y moda, ofreciendo una experiencia de compra integral que combina comodidad, conocimiento y soporte.</p>
-        <h2 class="text-center text-primary">!!visitanos te va a encantar !!</h2>
 
+
+    <!-- Historia sobre nuestra tienda -->
+    <section class="container mt-5">
+
+
+        <!-- Título de la sección, centrado y con color primario -->
+        <h2 class="text-center text-light mb-4">Nuestra Historia</h2>
+
+
+
+        <!-- Parrafo de la historia con fondo y sombra en el texto -->
+        <p class="fs-5 text-light bg-dark p-3 rounded-3 shadow-sm mb-4">
+            TechShop fue fundada en el año 2010 en San José de Costa Rica por un grupo de apasionados por la tecnología y la moda. El objetivo era simple pero ambicioso: crear una tienda que no solo vendiera productos electrónicos y de moda de alta calidad, sino
+            que también ofreciera una experiencia de compra excepcional. Desde sus inicios, TechShop se destacó por su compromiso con la excelencia y la satisfacción del cliente. Comenzaron en un pequeño local en el centro de la ciudad, pero gracias a
+            su enfoque en la calidad y el servicio al cliente, rápidamente ganaron una base de clientes leales. En 2015, TechShop abrió su primera tienda en línea, lo que permitió expandir su alcance y atender a clientes de todo Costa Rica. A lo largo
+            de los años, TechShop ha evolucionado y se ha adaptado a las tendencias tecnológicas, siempre manteniendo su compromiso con la innovación. En 2020, celebraron su décimo aniversario con la inauguración de su tienda insignia, un espacio interactivo
+            donde los clientes pueden probar los últimos gadgets y dispositivos.
+        </p>
+
+
+
+        <!-- Título para la misión -->
+        <h2 class="text-center text-light mb-4">Misión</h2>
+
+
+
+        <!-- Descripción de la misión con fondo oscuro y borde -->
+        <p class="fs-5 text-light bg-dark p-3 rounded-3 shadow-sm mb-5">
+            La misión de TechShop es proporcionar a nuestros clientes productos de moda, electrónicos y tecnológicos de la más alta calidad, acompañados de un servicio excepcional. Nos esforzamos por ser la primera opción para los entusiastas de la tecnología y moda,
+            ofreciendo una experiencia de compra integral que combina comodidad, conocimiento y soporte.
+        </p>
+
+
+        <!-- Título de invitación con énfasis -->
+        <h2 class="text-center text-warning fw-bold mb-4">¡Visítanos, te va a encantar!</h2>
     </section>
 
 
-    <!--Fotos de nuestro negocio-->
+
+
+    <!-- Fotos de nuestro negocio -->
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center">
-            <img src="../imgProyecto/pexels-robin-381450-1020370.jpg" alt="Imagen izquierda" class="img-fluid" style="max-width: 34%;">
-            <img src="../imgProyecto/pexels-hellochemo-29859884.jpg" alt="Imagen centro" class="img-fluid" style="max-width: 30%;">
-            <img src="../imgProyecto/pexels-merictuna-30254510.jpg" alt="Imagen derecha" class="img-fluid" style="max-width: 30%;">
+            <!-- Imagen izquierda -->
+            <img src="../imgProyecto/pexels-robin-381450-1020370.jpg" alt="Imagen izquierda" class="img-fluid hoveB" style="max-width: 34%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+
+            <!-- Imagen centro -->
+            <img src="../imgProyecto/pexels-hellochemo-29859884.jpg" alt="Imagen centro" class="img-fluid hoveB" style="max-width: 30%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+
+            <!-- Imagen derecha -->
+            <img src="../imgProyecto/pexels-merictuna-30254510.jpg" alt="Imagen derecha" class="img-fluid hoveB" style="max-width: 30%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
         </div>
     </div>
 
@@ -98,6 +163,7 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

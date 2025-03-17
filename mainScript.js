@@ -17,7 +17,7 @@ function makeCard(producto, container) {
     // Creación de la tarjeta dentro del enlace
     const cardContent = `
         <div class="bg-secondar h-100 text-white shadow ">
-            <img src="${image}" class="card-img-top" alt="${title}" style="height: 250px; object-fit: contain;">
+            <img src="${image}" class="card-img-top border rounded-3 bg-white" alt="${title}" style="height: 250px; object-fit: contain;">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
                 <p class="fw-bold ${price > 50 ? 'text-success' : 'text-secondary'}">$${price.toFixed(2)}</p>
