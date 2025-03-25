@@ -1,6 +1,12 @@
 console.log("Starting");
 
+
+
+// URL de la API para obtener los productos
 const apiUrl = "https://fakestoreapi.com/products";
+
+
+
 
 // Función para crear una tarjeta de producto
 function makeCard(producto, container) {
@@ -9,7 +15,7 @@ function makeCard(producto, container) {
     const card = document.createElement("div");
     card.classList.add("row"); // Bootstrap grid
 
-    // Enlace que lleva al detalle del producto
+    // Enlace que lleva a detalle de productos
     const productLink = document.createElement('a');
     productLink.href = `product-detail.html?id=${id}`; // Aquí estamos pasando el ID del producto en la URL
     productLink.classList.add('text-decoration-none'); // Para evitar subrayado por defecto

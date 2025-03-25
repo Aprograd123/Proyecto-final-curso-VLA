@@ -1,7 +1,18 @@
 console.log("Starting product detail");
 
+
+
+
+
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get('id'); // Obtener el ID del producto desde la URL
+
+
+
+
+
+
+
 
 // Si no se encuentra el ID, mostramos un mensaje en la consola
 if (!productId) {

@@ -38,7 +38,8 @@ body {
 
 .TamSect {
     width: auto;
-    height: 115vh;
+    min-height: 100vh;
+    /* Establecer una altura mínima de la ventana */
     background-image: url('./imgProyecto/pexels-cottonbro-4069293.png');
     background-size: cover;
     background-position: center;
