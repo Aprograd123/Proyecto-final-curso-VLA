@@ -33,9 +33,6 @@ body {
     /* Sombra más pronunciada */
 }
 
-
-/*media query para pantalla de phone 14 pro max o pantallas similares*/
-
 .TamSect {
     width: auto;
     min-height: 100vh;
@@ -43,6 +40,24 @@ body {
     background-image: url('./imgProyecto/pexels-cottonbro-4069293.png');
     background-size: cover;
     background-position: center;
+}
+
+
+/*configuracion para barra de links de contacto*/
+
+.social-icons a {
+    display: inline-block;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
 }
 
 
